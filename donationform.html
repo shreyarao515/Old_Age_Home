@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title>Donation Form</title>
+</head>
+<style>
+.header{
+    background-color:rgb(33, 68, 99);
+    font-size: medium;
+    color:#4CAF50 ;
+    padding: 10px;
+    margin:auto;
+}
+.form{
+    font-size: 20px;
+    padding: 10px;
+    margin:auto;
+    color: black;
+    background-color:beige;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4CAF50; 
+    font-size: 30px;
+    background-color: rgb(33, 68, 99);
+    padding:10px;
+    margin:auto;
+}
+.donate {
+font-size: 20px;
+padding:10px;
+margin:auto;
+background-color:beige;
+}
+</style>
+<body>
+    <div class="header";>
+        <h2><b></b>Donation Application</b></h2>
+    </div>
+    <div class="form">  
+    <form action="donation.php" method="POST">
+        <p>Check for the residents present in the oldagehome:
+        <button><a href="http://localhost:3000/resdisp.php">CHECK</a></button></p>
+        <p>First Name:<input type ="text" name="firstname" required><br><br>
+            Last Name:<input type = "text" name="lastname" required ><br><br>
+                Address:<input type="text" name="address"><br><br>
+            Contact Number:<input  type="tel" name="contact" title="Please enter valid number" required><br><br>
+            Email:<input type="email" name="email"><br></p>
+            Donation type:<select name="method">
+                <option value=" "></option>
+                <option value="Basic neccessities">Basic neccessities</option>
+                <option value="Money">Money</option>
+                <option value="Medical requirements">Medical requirements</option>
+            </select>
+            <p>Res_id:<input type="text" name="res_id"></div>
+            <div class="donate";>
+                <h1>Payment Details</h1>
+                <p>Donation Amount:<input type="number" name="amount"><br><br>
+                        Payment Method:<select name="pay">
+                        <option value=" "></option>
+                        <option value="Cash Donation">Cash Donation</option>
+                        <option value="Card">Credit/Debit Card Donation</option>
+                        <option value="cheque">Cheque Donation</option>
+                        <option value="UPI">UPI</option>
+                    </select>
+                </p>
+                <p>UPI_ID(if paid online):<input type ="text" name="upi_id"><br><br>
+                    <button>Submit form</button>  <button><a href="index.html">Home</a></button>
+            </form>
+        </div>
+</body>
+</html>

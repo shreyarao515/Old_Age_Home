@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>Admission form</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #90EE90, #008B00);
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #0c900c;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="email"],input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+input[type="radio"] {
+    margin: 0 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+<form action="insert1.php" method="POST">
+<h1><center>Sri Krishna Old Age Home</center></h1>
+<h2><center>9P3G+86P, Kodavoor - Vadabandeswara Rd, Malpe, Udupi, Karnataka 576106</center></h2>
+<h3><center><u>REGISTRATION FORM</u></center></h3>
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname" required>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lname" required><br>
+<pre></pre>
+<label for="age">Age:</label>
+<input type="number" min="40" max="120" id="age" name="age" required><br>
+<pre></pre>
+<label for="dob">Date of birth(yyyy-mm-dd):</label>
+<input type="date" id="dob" name="dob" required><br>
+<pre></pre>
+<label for="bgroup">Blood Group:</label>
+<input type="text" id="bgroup" name="bgroup" required><br>
+<pre></pre>
+<p><b>Gender:</b></p>
+<label for="MALE">MALE:-
+<input type="radio" id="male" name="gender" value="MALE" required></label>
+<label for="FEMALE">FEMALE:-
+<input type="radio" id="female" name="gender" value="FEMALE" required></label>
+<pre></pre>
+<label for="address">Permanent Address:</label>
+<input type="text" id="address" name="address" required><br>
+<pre></pre>
+<label>Select Room:
+<select name="room" required>
+<option value=""></option>
+<option value="Attached">Attached</option>
+<option value="Non attached">Non attached</option>
+</select>
+</label>
+<pre></pre>
+<label for="date">Current Date(yyyy-mm-dd):</label>
+<input type="date" id="date" name="date" required><br>
+<pre></pre>
+<label for="place">Contact No:</label>
+<input type="text" id="cont_no" name="cont_no" required><br>
+<pre></pre>
+<label for="place">Email:</label>
+<input type="text" id="email" name="email" required><br>
+<pre></pre>
+<input type="submit" value="Submit">
+<button><a href="index.html">Home</a></button>
+</form>
+</body>
+</html>
