@@ -83,5 +83,5 @@ For questions or feedback, please reach out via the **Issues** section of this r
 - **Adithi N**  
 - **Shreya S Rao**
 
-The project was developed by the above contributors. For more information, visit this repository.
+> The project was developed by the above contributors. For more information, visit this repository.
 
