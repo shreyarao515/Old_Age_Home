@@ -6,7 +6,7 @@ The **Old Age Home Management System** is a web-based platform designed to strea
 
 Built using **HTML**, **CSS**, **PHP**, and **MySQL**, the system offers user-friendly interfaces for both administrative staff and visitors. It simplifies data handling and ensures transparency and organization in daily operations. With modules for user registration, login, and secure data entry, the platform enhances communication and care coordination within the home.
 
-> This project is ideal for improving elderly care management in a digital environment.
+This project is ideal for improving elderly care management in a digital environment.
 
 ---
 
@@ -83,5 +83,5 @@ For questions or feedback, please reach out via the **Issues** section of this r
 - **Adithi N**  
 - **Shreya S Rao**
 
-> The project was developed by the above contributors. For more information, visit this repository.
+The project was developed by the above contributors. For more information, visit this repository.
 
